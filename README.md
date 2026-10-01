@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/forgia.svg" width="96" alt="Logo Forgia"></p>
 
-# Forgia 0.3.0 Preview
+# Forgia 0.3.1 Preview
 
 Assistente desktop per **Linux e Windows**: programma su una copia del progetto, rivedi le modifiche e applicale quando sei pronto. Puoi anche chattare senza progetto con i modelli locali.
 
@@ -8,10 +8,10 @@ Assistente desktop per **Linux e Windows**: programma su una copia del progetto,
 
 | Sistema | Download consigliato | Alternativa |
 | --- | --- | --- |
-| **Windows x64** | [Scarica l’installer .exe](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/Forgia-0.3.0-Windows-x64-Setup.exe) | [ZIP da estrarre](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/Forgia-0.3.0-Windows-x64.zip) |
-| **Linux x64** | [Scarica l’AppImage](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/Forgia-0.3.0-Linux-x64.AppImage) | [Archivio tar.gz](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/Forgia-0.3.0-Linux-x64.tar.gz) |
+| **Windows x64** | [Scarica l’installer .exe](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/Forgia-0.3.1-Windows-x64-Setup.exe) | [ZIP da estrarre](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/Forgia-0.3.1-Windows-x64.zip) |
+| **Linux x64** | [Scarica l’AppImage](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/Forgia-0.3.1-Linux-x64.AppImage) | [Archivio tar.gz](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/Forgia-0.3.1-Linux-x64.tar.gz) |
 
-[Apri la release e tutti i file](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/tag/v0.3.0) · [Impronte SHA-256](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/SHA256SUMS)
+[Apri la release e tutti i file](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/tag/v0.3.1) · [Impronte SHA-256](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/SHA256SUMS)
 
 **Windows:** apri l’installer, scegli la cartella di installazione e avvia **Forgia** dal menu Start. In alternativa estrai **tutto** lo ZIP e apri **Forgia.exe** nella cartella estratta.
 
@@ -31,6 +31,16 @@ Forgia non include un modello di chat. Configura almeno uno degli assistenti in 
 La chat senza progetto è disponibile per Ollama e LM Studio. Non servono chiavi API cloud; i programmi ufficiali gestiscono login e accesso ai rispettivi servizi. Forgia è un progetto indipendente, non un prodotto ufficiale OpenAI o Anthropic.
 
 Prima di lavorare automaticamente sui file con un modello locale, premi **Verifica modello**. Testo, immagini e strumenti hanno risultati separati: un modello testuale non può ricevere immagini.
+
+## Novità 0.3.1
+
+- Loghi autentici di ChatGPT/OpenAI, Claude, Ollama e LM Studio nelle connessioni e nei selettori.
+- Menu uniformi con navigazione da tastiera e ricerca dei modelli; Codex usa il catalogo disponibile per il tuo account.
+- Barra di scrittura centrale nelle conversazioni vuote, in basso dopo il primo messaggio.
+- Conversazione, bozza, allegati e assistente ripristinati separatamente tra Programmazione e Chat locale.
+- **Aggiungi file** nella libreria registra più percorsi senza copie e senza allegarli alla chat.
+- Sidebar ridimensionabili, richiudibili e riapribili.
+- Eliminazione persistente delle conversazioni; per i progetti vengono conservati i backup e le modifiche già applicate.
 
 ## Cosa offre la Preview
 
@@ -54,7 +64,7 @@ Per segnalare problemi usa [Issues](https://github.com/lorenzoneri-dev/Forgia-do
 
 ## Licenze e aggiornamenti
 
-[Licenza Forgia](LICENSE) · [Avvisi delle dipendenze](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.0/THIRD_PARTY_NOTICES.txt). Le licenze Electron e Chromium sono incluse anche nei pacchetti. Il modello vocale conserva la licenza della propria distribuzione.
+[Licenza Forgia](LICENSE) · [Avvisi delle dipendenze](https://github.com/lorenzoneri-dev/Forgia-downloads/releases/download/v0.3.1/THIRD_PARTY_NOTICES.txt). Le licenze Electron e Chromium sono incluse anche nei pacchetti. Il modello vocale conserva la licenza della propria distribuzione.
 
 Questo repository contiene documentazione, logo e download; i sorgenti dell’app sono mantenuti nel repository privato. Gli archivi automatici **Source code** di GitHub contengono soltanto questo repository di documentazione: per avviare Forgia scegli il pacchetto per il tuo sistema.
 
